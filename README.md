@@ -17,6 +17,8 @@
 
 ```text
 PUT ANSWER TO #2 HERE
+- The object is immutable 
+because it's a string.
 ```
 
 ```java
@@ -48,6 +50,12 @@ public class Puzzler {
 
 ```text
 PUT ANSWER TO #5 HERE
+- The return value from 
+#3 was blank and returns 
+to the point instance, 
+but #4 returns 5.0 and 
+does not connect back 
+to anything
 ```
 
 ```java
@@ -88,6 +96,8 @@ Recall that aliases are two variables that refer to the same object.
 
 ```text
 PUT ANSWER TO #2 HERE
+- (5, 8)
+  (5, 8)
 ```
 
 3. At the end of main, are p1 and p2 aliased? Why or why not?
@@ -95,6 +105,9 @@ PUT ANSWER TO #2 HERE
 
 ```text
 PUT ANSWER TO #3 HERE
+- No because all of the 
+frames are not overlapp
+ing.
 ```
 
 ```java
@@ -142,7 +155,7 @@ for (int i = 0; i < s.length(); i++) {
     * Screenshot your output and add it to your project as Part3_2.jpg
 3. Generalize the code so that it works on any string.
     * What could you do to generalize it more?
-
+* Turn the s variable to a scanner input, so any string may be used in the program.
 ## Part 4: Large Numbers
 
 Many encryption algorithms depend on the ability to raise large integers to a power. Below is a method that implements an efficient algorithm for integer exponentiation:
